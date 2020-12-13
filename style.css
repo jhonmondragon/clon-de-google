@@ -5,4 +5,23 @@
 }
 html{
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    font-size: 1.3rem;
+    display: flex;
+    list-style: none;
+    padding: 1rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+    background-color: aqua;
+}
+li{
+    padding: 1rem;
+}
+img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 5rem;
 }
