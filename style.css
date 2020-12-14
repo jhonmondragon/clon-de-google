@@ -15,13 +15,61 @@ ul{
     justify-content: flex-end;
     align-items: center;
     margin-right: 2rem;
-    background-color: aqua;
 }
 li{
     padding: 1rem;
 }
-img{
+header{
+    width: 100vw;
+}
+.foto-de-perfil{
     width: 3.2rem;
     height: 3.2rem;
     border-radius: 5rem;
+}
+main{
+    font-size: 2rem;
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.txt-buscar{
+    border: none;
+    width: 50rem ;
+}
+.microfono{
+    width: 3rem;
+}
+.container-logo{
+    height: fit-content;
+    padding: 2rem;
+}
+.logo{
+    height: 9.2rem;
+}
+.buscar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: .05rem solid rgba(0, 0, 0, 0.178);
+   width: fit-content;
+   padding: 1rem;
+   border-radius: 10rem;
+}
+.container-botones{
+    display: flex;
+    margin: 1.5rem;
+}
+.container-botones>div{
+    margin: 1.5rem;
+}
+button{
+    border: none;
+    font-size: 1.5rem;
+    color: rgb(77, 77, 77);
+    padding: 1.5rem;
+    background-color: rgba(236, 236, 236, 0.349);
 }
