@@ -7,7 +7,7 @@ html{
     font-size: 62.5%;
     font-family: Arial, Helvetica, sans-serif;
 }
-ul{
+.ul-header{
     font-size: 1.3rem;
     display: flex;
     list-style: none;
@@ -21,6 +21,7 @@ li{
 }
 header{
     width: 100vw;
+    height: 10vh;
 }
 .foto-de-perfil{
     width: 3.2rem;
@@ -29,7 +30,7 @@ header{
 }
 main{
     font-size: 2rem;
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -72,4 +73,43 @@ button{
     color: rgb(77, 77, 77);
     padding: 1.5rem;
     background-color: rgba(236, 236, 236, 0.349);
+}
+footer{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+footer>div{
+    color: rgb(145, 145, 145);
+    font-size: 1.6rem;
+    background-color: rgba(189, 189, 189, 0.226);
+    border: .1rem solid rgba(148, 148, 148, 0.212);
+    width: auto;
+    display: inline;
+}
+.barra-menu{
+    display: flex;
+    align-items: center;
+}
+.barra-menu p{
+    font-size: 1.4rem;
+    display: flex;
+    padding: 1rem;
+}
+.uno{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 2.2rem;
+}
+.dos{
+    width: 50vw;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+.barra-pais>p{
+    padding: 1rem 3rem;
 }
